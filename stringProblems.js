@@ -1,5 +1,3 @@
-// how to reverse a string
-
 // How to print character of string
 
 // let str = "Hello";

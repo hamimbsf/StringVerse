@@ -1,6 +1,17 @@
+![Language](https://img.shields.io/badge/Language-JavaScript-blue?logo=javascript)
+![Beginner Friendly](https://img.shields.io/badge/Level-Beginner-success)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
 # 📘 StringVerse - Mastering JavaScript Strings
 
 A beginner-friendly and in-depth JavaScript string learning guide, complete with Bangla commentary, real-world examples, and core concepts explained simply. Perfect for both beginners and DSA aspirants.
+
+---
+
+## 📂 File Structure
+
+- `script.js` – Core string concepts and built-in methods with examples
+- `stringProblems.js` – Real-world string problems and solutions
 
 ---
 
@@ -61,6 +72,19 @@ You can search these markers in your code editor to jump quickly.
 | 🛑 Null/Control chars     | (নিয়ন্ত্রণ, ব্যবহার হয় না সাধারণত) | **0 – 31**                                           |
 
 ---
+
+## 🧪 Problem Topics in `stringProblems.js`
+
+| No. | Problem                                       |
+| --- | --------------------------------------------- |
+| 1️⃣  | Print each character of a string              |
+| 2️⃣  | Reverse a string manually                     |
+| 3️⃣  | Check if a string is a palindrome (loop)      |
+| 4️⃣  | Check if a string is a palindrome (2-pointer) |
+| 5️⃣  | Toggle character cases (A ⇄ a)                |
+| 6️⃣  | Count frequency of characters                 |
+
+➡️ [View stringProblems.js](./stringProblems.js)
 
 ## 🔥 Recommendation
 
