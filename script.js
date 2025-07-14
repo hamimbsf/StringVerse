@@ -269,3 +269,30 @@
 // – যেখানে ইংরেজি ছাড়াও চাইনিজ, আরবি, বাংলা সহ সব ক্যারেক্টারের নাম্বার আছে।
 
 // JavaScript এ charCodeAt() → Unicode system ফলো করে।
+
+// 📌 Primitive String vs String Object
+
+// ✅ Primitive String
+// let str1 = "Hello";
+// console.log(typeof str1); // "string"
+
+// ❌ String Object (not recommended)
+// let str2 = new String("Hello");
+// console.log(typeof str2); // "object"
+
+// ❗ Equality Check
+// console.log(str1 == str2); // true  (type coercion)
+// console.log(str1 === str2); // false (strict check)
+
+// 🔍 Trying to mutate character
+// str2[0] = "h";
+// console.log(str2); // [String: 'Hello'] → character not changed
+// console.log(str2[0]); // "H"
+
+// 🧠 কেন use করা উচিত না:
+// - memory বেশি খায়
+// - type mismatch ঘটে
+// - mutation সম্ভব না
+
+// ✅ Best Practice: Use primitive string always
+// let name = "Hamim"; // সহজ, দ্রুত, memory-efficient
